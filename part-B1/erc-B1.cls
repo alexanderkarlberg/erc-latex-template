@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{erc-B1}[2019/02/26 erc-B1]
 \LoadClass{../erc}
-\RequirePackage[left=2cm,top=1.5cm,bottom=1.7cm,right=2cm,headsep=.45cm,footskip=.6cm]{geometry}
+\RequirePackage[left=2cm,top=1.5cm,bottom=1.5cm,right=2cm,headsep=.45cm,footskip=.6cm]{geometry}
 
 \chead[Part B1]{Part B1}
 
@@ -20,8 +20,8 @@ Part B2 is evaluated in Step 2 only)}\par
 \end{compactitem}
 \par\vspace{1.2em}}}
 
-\newcommand{\secsynopsis}{\pagebreak\section{Extended synopsis}}
-\newcommand{\seccv}{\pagebreak\section{Curriculum vitae}}
+\newcommand{\secsynopsis}{\pagebreak\section{Extended Synopsis of the scientific proposal}}
+\newcommand{\seccv}{\pagebreak\section{Curriculum vitae and Track Record}}
 \newcommand{\sectrack}{\pagebreak\section{Early achievements track-record}}
 
 \newcommand{\headfundingid}{{\centering\bfseries\itshape Appendix: All
@@ -113,7 +113,7 @@ ID)\par}\vspace{1cm}}
     \ifthenelse{\equal{#4}{}}{}{, #4}%
     \ifthenelse{\equal{#5}{}}{}{, #5}%
     .%
-    \ifthenelse{\equal{#6}{}}{}{\\\begin{minipage}[t]{\textwidth}\small#6\end{minipage}}}}
+    \ifthenelse{\equal{#6}{}}{}{\\\begin{minipage}[t]{\textwidth}\normalsize#6\end{minipage}}}}
 
 \newcommand*{\cvline}[2]{%
   \if@firstcvline%
@@ -132,6 +132,10 @@ ID)\par}\vspace{1cm}}
 \newcommand*{\cvlistitem}[1]{%
   \cvline{}{\makebox[0pt]{\listitemsymbol{}\hspace*{1cm}}#1}}
 \renewcommand*{\bibfont}{\small}
+
+%\newcommand*{\cvlistitem*}[1]{%
+%  \cvline{}{\makebox[0pt]{\hspace*{1cm}}#1}}
+%\renewcommand*{\bibfont}{\small}
 
 \renewcommand\section{\@startsection{section}{1}{\z@}%
   {-2ex \@plus -1ex \@minus -.2ex}%
