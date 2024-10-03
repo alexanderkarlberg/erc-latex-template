@@ -3,49 +3,68 @@
 \input{../erc-common}
 
 \usepackage{spreadtab}
+\usepackage{caption} 
 \STmessage{false}
 \FPmessagesfalse
 \usepackage[autolanguage]{numprint}
 \usepackage{amsmath}
 \usepackage{tabularx}
+\usepackage{booktabs}
 
 \usepackage{pgfgantt}
 
 \begin{document}
 \maketitle
-\input{../abstract}
+%\input{../abstract}
 
-\vfill\pagebreak
+%\vfill\pagebreak
 
 % Use \section's and \input's as needed
 
-\section{Context and Vision}
-\label{sec:intro}
-\input{parts/intro}
-
-\section{Challenges}
-\label{sec:challenges}
-\input{parts/challenges}
-
-\section{Objectives}
-\label{sec:objectives}
-\input{parts/objectives}
-
-\section{State of the Art}
-\label{sec:related}
-\input{parts/related}
+\section{State-of-the-art and objectives}
+\label{sec:state-of-the-art}
+\input{parts/state-of-the-art}
 
 \section{Methodology} 
-\label{sec:research}
-\input{parts/research}
+\label{sec:methodology}
+\input{parts/methodology}
 
-\section{Impact}
-\label{sec:impact}
-\input{parts/impact}
+\pagebreak
+\bigskip
+\large\centering\textbf{\textit{Appendix: All current grants and on-going / submitted grant applications of the PI 
+    \\(Funding ID)}}
 
-\section{Resources}
-\label{sec:resources}
-\input{parts/resources}
+\large\centering\textit{\underline{Mandatory information} (does not count towards page limits)}
+
+\section*{Current research grants (Please indicate "No funding" when applicable):}
+\vspace{-0.4cm}
+\begin{table}[h]
+  \begin{tabular}{c|c|c|c|c|c}
+    \textit{Project title} & \textit{Funding source} & \textit{Amount (Euros)} & \textit{Period} & \textit{Role of the PI} & \textit{Relation to current ERC proposal} \\
+    \toprule
+    & & & & & \\
+    \midrule
+    & & & & & \\
+    \midrule
+    & & & & & \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section*{On-going / submitted grant applications (Please indicate "None" when applicable):}
+\vspace{-0.4cm}
+\begin{table}[h]
+  \begin{tabular}{c|c|c|c|c|c}
+    \textit{Project title} & \textit{Funding source} & \textit{Amount (Euros)} & \textit{Period} & \textit{Role of the PI} & \textit{Relation to current ERC proposal} \\
+    \toprule
+    & & & & & \\
+    \midrule
+    & & & & & \\
+    \midrule
+    & & & & & \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 \pagebreak
 \bigskip
