@@ -1,3 +1,11 @@
+## Note
+
+This repository is a fork of
+https://github.com/PierreSenellart/erc-latex-template. It has been
+updated to conform with the template for the 2025 ERC calls. However,
+no guarantee is provided that this template will be accepted. It is
+distributed under the same license as the original repository.
+
 # `erc-latex-template`: LaTeX template for ERC proposals
 
 Simple LaTeX template for ERC proposals. This template was verified to
